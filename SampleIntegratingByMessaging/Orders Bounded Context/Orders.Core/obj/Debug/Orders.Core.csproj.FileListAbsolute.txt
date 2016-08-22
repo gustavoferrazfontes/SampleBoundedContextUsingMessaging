@@ -1,0 +1,7 @@
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Orders Bounded Context\Orders.Core\bin\Debug\Orders.Core.dll
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Orders Bounded Context\Orders.Core\bin\Debug\Orders.Core.pdb
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Orders Bounded Context\Orders.Core\bin\Debug\SharedKernel.dll
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Orders Bounded Context\Orders.Core\bin\Debug\SharedKernel.pdb
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Orders Bounded Context\Orders.Core\obj\Debug\Orders.Core.csprojResolveAssemblyReference.cache
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Orders Bounded Context\Orders.Core\obj\Debug\Orders.Core.dll
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Orders Bounded Context\Orders.Core\obj\Debug\Orders.Core.pdb

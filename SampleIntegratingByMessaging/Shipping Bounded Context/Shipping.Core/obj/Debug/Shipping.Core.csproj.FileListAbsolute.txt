@@ -1,0 +1,7 @@
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Shipping Bounded Context\Shipping.Core\bin\Debug\Shipping.Core.dll
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Shipping Bounded Context\Shipping.Core\bin\Debug\Shipping.Core.pdb
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Shipping Bounded Context\Shipping.Core\obj\Debug\Shipping.Core.dll
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Shipping Bounded Context\Shipping.Core\obj\Debug\Shipping.Core.pdb
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Shipping Bounded Context\Shipping.Core\obj\Debug\Shipping.Core.csprojResolveAssemblyReference.cache
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Shipping Bounded Context\Shipping.Core\bin\Debug\SharedKernel.dll
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Shipping Bounded Context\Shipping.Core\bin\Debug\SharedKernel.pdb

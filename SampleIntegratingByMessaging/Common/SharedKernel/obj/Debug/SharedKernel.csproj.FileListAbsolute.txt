@@ -1,0 +1,5 @@
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Common\SharedKernel\bin\Debug\SharedKernel.dll
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Common\SharedKernel\bin\Debug\SharedKernel.pdb
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Common\SharedKernel\obj\Debug\SharedKernel.dll
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Common\SharedKernel\obj\Debug\SharedKernel.pdb
+E:\Dev\Sample-integrating-using-messaging\SampleIntegratingByMessaging\Common\SharedKernel\obj\Debug\SharedKernel.csprojResolveAssemblyReference.cache

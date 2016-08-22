@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Orders bounded context", "Orders bounded context", "{80624065-9053-416F-A080-8588AF578BF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shipping bounded context", "shipping bounded context", "{96F80507-860F-4E43-95A9-BCEC96001636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Core", "Orders Bounded Context\Orders.Core\Orders.Core.csproj", "{EF26CDED-D025-43A2-B406-8EEDF86D8A33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Core.Tests", "Orders Bounded Context\Orders.Core.Tests\Orders.Core.Tests.csproj", "{134CDF1C-A167-4EF6-9292-C60D082E8CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping.Core", "Shipping Bounded Context\Shipping.Core\Shipping.Core.csproj", "{7D765D3A-F4FD-4E3D-8C54-F271AAA51196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping.Core.Tests", "Shipping Bounded Context\Shipping.Core.Tests\Shipping.Core.Tests.csproj", "{A8D5CBB0-C35A-461F-A155-96CBAEB34B30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{7CB40ABA-F3E3-4BA5-8E4D-44231A783202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "Common\SharedKernel\SharedKernel.csproj", "{F4D3E41C-6156-4C01-864A-C12BA33612D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC", "Common\IoC\IoC.csproj", "{65079567-9A33-4A69-8369-09CBA05F8C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{649FF1B0-0952-4509-9D7B-4B9A0E9B848B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Infra", "Orders Bounded Context\Orders.Infra\Orders.Infra.csproj", "{351C3B0E-33E2-4A81-9445-1A8AA5B892D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping.Infra", "Shipping Bounded Context\Shipping.Infra\Shipping.Infra.csproj", "{6473C5F1-CF2A-4FD6-A2E6-314A7D4ABC2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF26CDED-D025-43A2-B406-8EEDF86D8A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF26CDED-D025-43A2-B406-8EEDF86D8A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF26CDED-D025-43A2-B406-8EEDF86D8A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF26CDED-D025-43A2-B406-8EEDF86D8A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134CDF1C-A167-4EF6-9292-C60D082E8CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134CDF1C-A167-4EF6-9292-C60D082E8CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134CDF1C-A167-4EF6-9292-C60D082E8CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134CDF1C-A167-4EF6-9292-C60D082E8CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D765D3A-F4FD-4E3D-8C54-F271AAA51196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D765D3A-F4FD-4E3D-8C54-F271AAA51196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D765D3A-F4FD-4E3D-8C54-F271AAA51196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D765D3A-F4FD-4E3D-8C54-F271AAA51196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D5CBB0-C35A-461F-A155-96CBAEB34B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D5CBB0-C35A-461F-A155-96CBAEB34B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D5CBB0-C35A-461F-A155-96CBAEB34B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D5CBB0-C35A-461F-A155-96CBAEB34B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D3E41C-6156-4C01-864A-C12BA33612D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D3E41C-6156-4C01-864A-C12BA33612D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D3E41C-6156-4C01-864A-C12BA33612D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D3E41C-6156-4C01-864A-C12BA33612D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65079567-9A33-4A69-8369-09CBA05F8C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65079567-9A33-4A69-8369-09CBA05F8C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65079567-9A33-4A69-8369-09CBA05F8C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65079567-9A33-4A69-8369-09CBA05F8C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649FF1B0-0952-4509-9D7B-4B9A0E9B848B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649FF1B0-0952-4509-9D7B-4B9A0E9B848B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649FF1B0-0952-4509-9D7B-4B9A0E9B848B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649FF1B0-0952-4509-9D7B-4B9A0E9B848B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351C3B0E-33E2-4A81-9445-1A8AA5B892D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351C3B0E-33E2-4A81-9445-1A8AA5B892D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351C3B0E-33E2-4A81-9445-1A8AA5B892D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351C3B0E-33E2-4A81-9445-1A8AA5B892D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6473C5F1-CF2A-4FD6-A2E6-314A7D4ABC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6473C5F1-CF2A-4FD6-A2E6-314A7D4ABC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6473C5F1-CF2A-4FD6-A2E6-314A7D4ABC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6473C5F1-CF2A-4FD6-A2E6-314A7D4ABC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF26CDED-D025-43A2-B406-8EEDF86D8A33} = {80624065-9053-416F-A080-8588AF578BF0}
+		{134CDF1C-A167-4EF6-9292-C60D082E8CA0} = {80624065-9053-416F-A080-8588AF578BF0}
+		{7D765D3A-F4FD-4E3D-8C54-F271AAA51196} = {96F80507-860F-4E43-95A9-BCEC96001636}
+		{A8D5CBB0-C35A-461F-A155-96CBAEB34B30} = {96F80507-860F-4E43-95A9-BCEC96001636}
+		{F4D3E41C-6156-4C01-864A-C12BA33612D4} = {7CB40ABA-F3E3-4BA5-8E4D-44231A783202}
+		{65079567-9A33-4A69-8369-09CBA05F8C43} = {7CB40ABA-F3E3-4BA5-8E4D-44231A783202}
+		{351C3B0E-33E2-4A81-9445-1A8AA5B892D3} = {80624065-9053-416F-A080-8588AF578BF0}
+		{6473C5F1-CF2A-4FD6-A2E6-314A7D4ABC2B} = {96F80507-860F-4E43-95A9-BCEC96001636}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
